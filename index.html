@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central de Atendimento</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f9;
+}
+
+header{
+    background:#0a0a0a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Central de Atendimento</h1>
+<p>Suporte rápido e atendimento online</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Atendimento Online</h2>
+<p>
+Nosso atendimento está disponível para ajudar você com dúvidas,
+informações e suporte necessário.
+</p>
+
+<button onclick="abrirChat()">Iniciar Atendimento</button>
+</div>
+
+<div class="card">
+<h2>Privacidade</h2>
+<p>
+Tratamos seus dados apenas para realizar o atendimento solicitado.
+As informações são utilizadas apenas para identificar seu atendimento
+e melhorar sua experiência.
+</p>
+</div>
+
+<div class="card">
+<h2>Termos de Uso</h2>
+<p>
+Ao utilizar este site você concorda com nossos termos.
+Nosso objetivo é fornecer suporte e orientação aos usuários.
+</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Central de Atendimento
+</footer>
+
+<script>
+
+function abrirChat(){
+    alert("Chat iniciando...");
+}
+
+</script>
+
+</body>
+</html>
