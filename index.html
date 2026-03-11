@@ -8,105 +8,86 @@
 <style>
 
 body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#f4f6f9;
-}
-
-header{
-    background:#0a0a0a;
-    color:white;
-    text-align:center;
-    padding:20px;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0b0f2a;
+color:white;
+text-align:center;
 }
 
 .container{
-    max-width:900px;
-    margin:auto;
-    padding:30px;
+padding:40px 20px;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.sub{
+color:#cbd5e1;
+margin-bottom:40px;
 }
 
 .card{
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    margin-bottom:20px;
+background:#151a3b;
+margin:15px auto;
+padding:20px;
+border-radius:12px;
+max-width:320px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
 
-button{
-    background:#007bff;
-    color:white;
-    border:none;
-    padding:15px 25px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
+.card h3{
+margin-top:0;
 }
 
-button:hover{
-    background:#0056b3;
+.btn{
+display:block;
+background:#25d366;
+color:white;
+text-decoration:none;
+padding:12px;
+border-radius:8px;
+margin-top:10px;
+font-weight:bold;
 }
 
-footer{
-    text-align:center;
-    padding:20px;
-    color:#666;
+.btn:hover{
+opacity:0.9;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<header>
-<h1>Central de Atendimento</h1>
-<p>Suporte rápido e atendimento online</p>
-</header>
-
 <div class="container">
 
-<div class="card">
-<h2>Atendimento Online</h2>
-<p>
-Nosso atendimento está disponível para ajudar você com dúvidas,
-informações e suporte necessário.
-</p>
-
-<button onclick="abrirChat()">Iniciar Atendimento</button>
-</div>
+<div class="logo">SUPORTE AO CLIENTE</div>
+<div class="sub">Escolha uma opção de atendimento</div>
 
 <div class="card">
-<h2>Privacidade</h2>
-<p>
-Tratamos seus dados apenas para realizar o atendimento solicitado.
-As informações são utilizadas apenas para identificar seu atendimento
-e melhorar sua experiência.
-</p>
+<h3>Atendimento</h3>
+<p>Fale com um atendente agora</p>
+<a class="btn" href="https://wa.me/5531996374883">Abrir WhatsApp</a>
 </div>
 
 <div class="card">
-<h2>Termos de Uso</h2>
-<p>
-Ao utilizar este site você concorda com nossos termos.
-Nosso objetivo é fornecer suporte e orientação aos usuários.
-</p>
+<h3>Suporte</h3>
+<p>Atualizações</p>
+<a class="btn" href="https://wa.me/5531996374883">Solicitar Suporte</a>
+</div>
+
+<div class="card">
+<h3>Emitir</h3>
+<p>Atualização</p>
+<a class="btn" href="https://wa.me/5531996374883">Falar com Atendente</a>
 </div>
 
 </div>
-
-<footer>
-© 2026 Central de Atendimento
-</footer>
-
-<script>
-
-function abrirChat(){
-    alert("Chat iniciando...");
-}
-
-</script>
 
 </body>
 </html>
+
